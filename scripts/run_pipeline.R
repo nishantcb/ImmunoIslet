@@ -1,0 +1,5 @@
+source("scripts/01_download_data.R")
+source("scripts/02_load_and_merge.R")
+source("scripts/03_QC_and_clustering.R")
+source("scripts/04_annotation_and_states.R")
+source("scripts/05_DE_analysis.R")
