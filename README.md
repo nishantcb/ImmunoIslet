@@ -1,6 +1,6 @@
-# 🧬 Single-cell RNA-seq Analysis of Human Pancreatic Islets
+# Single-cell RNA-seq Analysis of Human Pancreatic Islets
 
-## 📌 Overview
+## Overview
 
 This repository contains a reproducible pipeline for analyzing human pancreatic islet single-cell RNA-seq data. The workflow includes:
 
@@ -17,7 +17,7 @@ This repository contains a reproducible pipeline for analyzing human pancreatic 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 islet_scRNA_pipeline/
@@ -41,7 +41,7 @@ islet_scRNA_pipeline/
 
 ---
 
-## ⚙️ Environment Setup (Conda)
+## Environment Setup (Conda)
 
 ### Step 1: Create conda environment
 
@@ -67,7 +67,7 @@ conda install -c conda-forge r-essentials r-devtools -y
 
 ---
 
-## 📦 Install R packages
+## Install R packages
 
 Open R inside the conda environment:
 
@@ -87,7 +87,7 @@ BiocManager::install(c("clusterProfiler", "org.Hs.eg.db"))
 
 ---
 
-## ▶️ Running the Pipeline
+## Running the Pipeline
 
 ### Run step-by-step (recommended first run)
 
@@ -115,7 +115,7 @@ Rscript scripts/run_pipeline.R
 
 ---
 
-## 📊 Output
+## Output
 
 ### Processed data:
 
@@ -140,7 +140,7 @@ results/
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * Ensure input file exists:
 
@@ -152,7 +152,7 @@ data/processed/islet_merged.rds
 
 ---
 
-## 🧠 Reproducibility
+## Reproducibility
 
 For reproducibility, the pipeline:
 
@@ -162,7 +162,7 @@ For reproducibility, the pipeline:
 
 ---
 
-## 🚀 Citation / Use
+## Citation / Use
 
 If you use this pipeline, please cite relevant tools:
 
@@ -171,7 +171,7 @@ If you use this pipeline, please cite relevant tools:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Nishant Kumar
 Computational Biology | Single-cell Analysis
