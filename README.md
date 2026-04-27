@@ -4,7 +4,7 @@
 
 This repository contains a reproducible pipeline for analyzing human pancreatic islet single-cell RNA-seq data. The workflow includes:
 
-* Data download (GEO: GSExxxxx)
+* Data download (GEO: GSE293661)
 * Quality control and filtering
 * Normalization (SCTransform)
 * Dimensionality reduction (PCA, UMAP)
